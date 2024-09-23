@@ -1,0 +1,62 @@
+---
+title: "10: Statistical analisys"
+jupyter:
+  jupytext:
+    text_representation:
+      extension: .qmd
+      format_name: quarto
+      format_version: '1.0'
+      jupytext_version: 1.16.1
+  kernelspec:
+    display_name: Python 3 (ipykernel)
+    language: python
+    name: python3
+
+
+---
+
+<https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#data-analysis>
+Describe your contributions below.
+
+* * *
+
+## Fitting a Linear Regression model
+{{< embed ML_Models.ipynb#linear-regression-model >}}
+
+## Performing Feature Scaling and then Performing Linear Regression Again
+
+{{< embed ML_Models.ipynb#feature-scaling-linear-regression  >}}
+
+## MSE, RMSE and MAE for linear regression model
+
+{{< embed ML_Models.ipynb#mse-rmse-mae-linear-regression  >}}
+
+## Scaling features and performing Linear Regression
+
+{{< embed ML_Models.ipynb#robust-scaler-linear-regression  >}}
+
+## MSE, RMSE and MAE after outlier removal
+
+{{< embed ML_Models.ipynb#mse-rmse-mae-regression-without-outliers >}}
+
+
+
+# Applying Ensemble methods
+
+## Random Forest Regressor
+
+{{< embed ML_Models.ipynb#random-forest-regressor >}}
+
+## Random Forest Model
+
+{{< embed ML_Models.ipynb#random-forest-model >}}
+
+
+## Gradient Boosing model
+
+{{< embed ML_Models.ipynb#gradient-boosting >}}
+
+## LSTM Model
+
+{{< embed LSTM_YFIN.ipynb#lstm-model >}}
+

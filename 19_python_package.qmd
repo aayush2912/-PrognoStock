@@ -1,0 +1,8 @@
+---
+title: "19: python package (optional)"
+---
+
+<https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#optional-build-your-own-external-python-package-and-use-this-package-as-a-dependency-in-the-main-project>.
+Describe your contributions below.
+
+* * *

@@ -1,0 +1,51 @@
+---
+title: "8: External services"
+jupyter:
+  jupytext:
+    text_representation:
+      extension: .qmd
+      format_name: quarto
+      format_version: '1.0'
+      jupytext_version: 1.16.1
+  kernelspec:
+    display_name: Python 3 (ipykernel)
+    language: python
+    name: python3
+---
+
+See <https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#backup-of-the-raw-and-tidied-data-on-external-storage-service>.
+Describe your contributions below.
+
+
+### Sending Data to JSON:
+
+1. *Convert DataFrame to JSON*: To store DataFrame data in JSON format, you first need to convert the DataFrame into a JSON representation. This involves converting each row of the DataFrame into a JSON object.
+
+2. *Choose JSON Format*: Decide on the format you want the JSON data to be in. Common formats include:
+   - *Records*: Each row of the DataFrame becomes a JSON object.
+   - *Columns*: Each column of the DataFrame becomes a JSON object.
+   - *Index*: Use the DataFrame index as keys for the JSON objects.
+
+3. *Write to File*: If you want to save the JSON data to a file, you can write the JSON string to a file using file handling operations.
+
+
+### Sending Data to SQL:
+
+1. *Connect to Database*: Establish a connection to your SQL database. This involves providing connection details such as the database URL, username, password, etc.
+
+2. *Create SQL Table*: Decide on the structure of the SQL table where you want to store the DataFrame data. This includes defining column names, data types, primary keys, etc.
+
+3. *Insert Data into Table*: Once the table structure is defined, you can insert the DataFrame data into the SQL table. This involves executing SQL INSERT statements or using methods provided by database libraries to insert data in bulk.
+
+
+### Sending Data to CSV:
+
+1. *Choose Delimiter*: Decide on the delimiter character to separate values in the CSV file. Common choices are commas, tabs, or semicolons.
+
+2. *Write Data to CSV File*: Convert the DataFrame into CSV format and write it to a file. Each row of the DataFrame becomes a row in the CSV file, with values separated by the chosen delimiter.
+
+3. *Include Header*: Decide whether to include column names as the first row of the CSV file. This can be controlled using an option provided by CSV writing functions.
+
+These are the general steps involved in sending data from a DataFrame to storage formats like JSON, SQL, and CSV. 
+
+* * *

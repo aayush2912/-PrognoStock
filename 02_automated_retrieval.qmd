@@ -1,0 +1,34 @@
+---
+title: "2: Retrieval of raw data"
+jupyter:
+  jupytext:
+    text_representation:
+      extension: .qmd
+      format_name: quarto
+      format_version: '1.0'
+      jupytext_version: 1.16.1
+  kernelspec:
+    display_name: Python 3 (ipykernel)
+    language: python
+    name: python3
+---
+
+See <https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#retrieval-of-the-raw-data> for information.
+Describe your contributions below.
+
+* * *
+
+- The yahoo finance API has a wide range of data like Cryptocurrencies, regular currencies, stocks and bonds, fundamental and options data, and market analysis and news.
+
+- We intented to use the official API provided by Yahoo, but seems like this was shutdown in 2017. 
+
+- The next option was to scrape the data from their website or to use pre exisitng APIS
+
+- We explored two popular APIS in python - RapidAPI, yahoo_finance and yfinance 
+
+- We decide to go forward with yfinance API
+
+
+
+
+

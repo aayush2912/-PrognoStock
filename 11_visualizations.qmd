@@ -1,0 +1,58 @@
+---
+title: "11: Visualizations"
+jupyter:
+  jupytext:
+    text_representation:
+      extension: .qmd
+      format_name: quarto
+      format_version: '1.0'
+      jupytext_version: 1.16.1
+  kernelspec:
+    display_name: Python 3 (ipykernel)
+    language: python
+    name: python3
+---
+
+<https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#around-4-6-or-more-visualizations-related-to-the-dataset>
+Describe your contributions below.
+
+* * *
+
+### Visualization 1: Sector Performance Over Time
+
+Type: Line Chart
+Data: Closing price or a price index for each sector over a specific timeframe.
+Insights: Identify trends in sector performance, compare relative movements across sectors.
+Customization: Use different line colors for each sector. Highlight specific periods of strong performance/decline for a particular sector with thicker lines or annotations.
+
+### Visualization 2: Distribution of P/E Ratios by Sector
+Type: Box Plot
+Data: P/E ratios for companies within each sector.
+Insights: Understand the distribution of valuations within each sector, identify potential outliers (potentially undervalued/overvalued companies).
+Customization: Color-code boxes based on sector. Annotations for sector medians and outliers can be added for emphasis.
+
+### Visualization 3: Sector Correlation Matrix (Optional - for many sectors)
+Type: Heatmap
+Data: Correlation coefficients between closing prices of different sectors.
+Insights: Reveal potential dependencies between sectors. Sectors with high positive correlation might move in tandem, while negative correlations suggest potentially counterbalancing movements.
+Customization: Use a color gradient to represent correlation strength (red for negative, blue for positive). Focus on the upper triangle of the matrix to avoid redundancy.
+
+### Visualization 4: Company Performance within a Sector (Drill-Down)
+Type: Scatter Plot (interactive, if possible)
+Data: Stock price or a performance metric (e.g., % change) vs. another metric (e.g., market capitalization) for companies within a chosen sector.
+Insights: Identify high/low performers within a sector based on the chosen metrics.
+Customization: Allow interactivity to highlight specific companies on hover. Color points based on company size or other relevant factors.
+
+#Visualization code starts -->
+
+## Plotting a corelation map
+
+{{< embed ML_Models.ipynb#plotting-correlation-plot >}}
+
+## Scatter plot of residuals 
+
+{{< embed ML_Models.ipynb#scatter-plot-of-residuals >}}
+
+## Residual distribution
+
+{{< embed ML_Models.ipynb#residual-distribution >}}

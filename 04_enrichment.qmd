@@ -1,0 +1,42 @@
+---
+title: '4: Data enrichment'
+jupyter:
+  jupytext:
+    text_representation:
+      extension: .qmd
+      format_name: quarto
+      format_version: '1.0'
+      jupytext_version: 1.16.1
+  kernelspec:
+    display_name: Python 3 (ipykernel)
+    language: python
+    name: python3
+---
+
+See <https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#data-enrichment>.
+Describe your contributions below.
+
+* * *
+
+- While yahoo_fin offers a robust library for fetching stock data, it doesn't directly provide functionalities like GDP, population, sector information etc.
+
+- We plant to analyse data regarding different companies and sectors. 
+
+- For this purpose we may utilise other databanks like 
+
+### World Bank Open Data:
+
+ Provides free access to various economic indicators including GDP and inflation data for most countries. We would match countries of listed companies with this data and potentially find correlations between economic factors and stock performance within sectors
+
+### News and Social Media Sentiment:
+Services like Google News API or social media APIs (e.g., Twitter API) can be used to gather news sentiment around specific sectors or companies. Analyzing this sentiment alongside stock prices to see if there's any correlation between positive/negative news and market movements
+
+
+## Fetched data 
+{{< embed LSTM_YFIN.ipynb#reading-csv >}}
+
+## Define Dictionary mapping to each company 
+
+{{< embed LSTM_YFIN.ipynb#define-dictionary-mapping-each-company >}}
+
+

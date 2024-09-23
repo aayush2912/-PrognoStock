@@ -1,0 +1,20 @@
+---
+title: "7: Backup in several formats"
+jupyter:
+  jupytext:
+    text_representation:
+      extension: .qmd
+      format_name: quarto
+      format_version: '1.0'
+      jupytext_version: 1.16.1
+  kernelspec:
+    display_name: Python 3 (ipykernel)
+    language: python
+    name: python3
+---
+
+See <https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#store-your-data-in-at-least-3-different-formats-e.g.-sqlite3-csv-excel>.
+
+Describe your contributions below.
+
+* * *

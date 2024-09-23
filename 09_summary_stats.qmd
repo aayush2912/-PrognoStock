@@ -1,0 +1,86 @@
+---
+title: "9: Summary statistics"
+jupyter:
+  jupytext:
+    text_representation:
+      extension: .qmd
+      format_name: quarto
+      format_version: '1.0'
+      jupytext_version: 1.16.1
+  kernelspec:
+    display_name: Python 3 (ipykernel)
+    language: python
+    name: python3
+---
+
+See <https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#computation-of-meaningful-summary-statistics>.
+Describe your contributions below.
+
+* * *
+
+## General Statistics:
+
+- Mean, Median, Standard Deviation (for Closing Prices):
+This helps understand the average stock price, the "middle" price point, and the overall variability in prices within a sector or for a particular company.
+
+- Minimum and Maximum Prices:
+These identify the lowest and highest prices reached within a timeframe, giving an idea of the price range.
+
+- Volume (Total Shares Traded):
+This indicates the overall trading activity for a stock or sector. High volume suggests more interest and potentially higher volatility.
+
+## Sector-Specific Analysis:
+
+- Price-to-Earnings Ratio (P/E Ratio) by Sector:
+This is a common valuation metric comparing a company's stock price to its earnings per share. Analyzing the average P/E ratio across sectors can reveal relative valuations and potential investment opportunities.
+
+## Company-Specific Analysis:
+
+- Beta:
+This measures a stock's volatility relative to the overall market. A beta greater than 1 suggests the stock is more volatile than the market, and vice versa.
+
+- Return on Equity (ROE):
+This profitability metric indicates how effectively a company uses invested capital to generate returns. It can be compared across companies within the same sector.
+
+#Code for summary of stats starts -->
+
+## Plotting feature scaling based on outliers
+
+{{< embed ML_Models.ipynb#plot-feature-scaling-based-on-outliers >}}
+
+## Summary Statistics
+
+n =500
+Mean Squared Error (Gradient Boosting): 0.35043449032884033
+learning_rate = 0.01
+and n_estimators = 100
+MSE is 0.4
+learning_rate = 0.01
+n_estimators = 500
+mse --> 0.3
+
+loss='squared_error',
+learning_rate=0.05,
+n_estimators=500,
+subsample=1.0,
+criterion='friedman_mse',
+min_samples_split=5,
+min_samples_leaf=4,
+min_weight_fraction_leaf=0.0,
+max_depth=6,
+min_impurity_decrease=0.0,
+random_state=42,
+alpha=0.1,
+max_features=None,
+verbose=0,
+max_leaf_nodes=None,
+warm_start=False,
+validation_fraction=0.1,
+n_iter_no_change=None,
+tol=0.0001,
+ccp_alpha=0.0)
+
+
+## Title Distribution of close price by sector
+
+{{< embed LSTM_YFIN.ipynb#title-distribution-of-close-price-by-sector >}}

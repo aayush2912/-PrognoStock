@@ -1,0 +1,8 @@
+---
+title: "13: interactivity"
+---
+
+See <https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#interactive-data-widget>.
+Describe your contributions below.
+
+* * *

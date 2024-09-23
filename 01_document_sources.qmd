@@ -1,0 +1,40 @@
+---
+title: "1: Data Sources"
+jupyter:
+  jupytext:
+    text_representation:
+      extension: .qmd
+      format_name: quarto
+      format_version: '1.0'
+      jupytext_version: 1.16.1
+  kernelspec:
+    display_name: Python 3 (ipykernel)
+    language: python
+    name: python3
+---
+
+See <https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#documenting-data-sources> for information.
+Describe your contributions below.
+
+* * *
+
+<https://finance.yahoo.com/>
+
+- Data from Yahoo Finance API is sourced from various financial markets, including stock exchanges, commodities markets, and currency exchanges. Yahoo Finance, a subsidiary of Verizon Media, provides this data.
+
+- The raw data from Yahoo Finance API is typically in JSON format. It contains a variety of information such as stock prices, market indices, company fundamentals, historical data, and news related to financial markets.
+
+- The data covers a wide range of financial instruments and is updated frequently, often in real-time or with minimal delay. This includes data on stocks, bonds, commodities, currencies, and indices. Updates can occur multiple times per minute during trading hours and less frequently during non-trading hours.
+
+
+## Fetch historical market data
+
+{{< embed ML_Models.ipynb#fetch-historical-market-data >}}
+
+## Fetch Apple stock data
+
+{{< embed ML_Models.ipynb#fetching-data-apple >}}
+
+## Create Dataframe with specified index
+
+{{< embed ML_Models.ipynb#create-dataframe-with-specified-index >}}

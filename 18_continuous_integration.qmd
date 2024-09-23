@@ -1,0 +1,8 @@
+---
+title: "18: cont. integration"
+---
+
+<https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#continuous-integration>.
+Describe your contributions below.
+
+* * *

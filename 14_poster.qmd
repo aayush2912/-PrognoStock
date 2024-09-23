@@ -1,0 +1,10 @@
+---
+title: "14: Poster"
+---
+
+See <https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#poster>.
+Describe your contributions below.
+
+* * *
+
+<https://github.com/manasmaskar/wranglingPoster/blob/main/Poster.pdf>
