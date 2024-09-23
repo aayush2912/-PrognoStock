@@ -1,0 +1,63 @@
+project:
+  type: website
+
+website:
+  title: "Project Group Wranglers"
+  navbar:
+    background: primary
+    left:
+      - ML_Models.ipynb
+      - LSTM_YFIN.ipynb
+      - MLAnalysis.ipynb
+
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - index.qmd
+      - section: "Data Wrangling: retrieval"
+        contents:
+          - 01_document_sources.qmd
+          - 02_automated_retrieval.qmd
+          - 03_raw_to_tabular.qmd
+      - section: "Data Wrangling: enrichment/cleaning"
+        contents:
+          - 04_enrichment.qmd
+          - 05_cleaning.qmd
+          - 06_test_quality.qmd
+      - section: "Backups"
+        contents:
+          - 07_format_conversion.qmd
+          - 08_backup_external_service.qmd
+      - section: "Data Wrangling: Analysis"
+        contents:
+          - 09_summary_stats.qmd
+          - 10_statistical_ML.qmd
+          - 11_visualizations.qmd
+      - section: "Data Wrangling: Communicating results"
+        contents:
+          - 12_webpage.qmd
+          - 13_interactive.qmd
+          - 14_poster.qmd
+      - section: "Project and software dev"
+        contents:
+          - 15_commit.qmd
+          - 16_tests.qmd
+          - 17_continuous_testing.qmd
+          - 18_continuous_integration.qmd
+          - 19_python_package.qmd
+          - 20_reproducibility.qmd
+
+
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+plugins:
+  - name: quarto-embed
+
+
